@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Writes a message to my_process file
+# Script to be used with 101-manage_my_process
 
-while :
+while (true)
 do
-	echo "I am alive!" >> /tmp/my_process
-	sleep 2
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
 done
